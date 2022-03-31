@@ -1,0 +1,33 @@
+.screen-header__icons span:last-child {
+  position: relative;
+}
+
+.screen-header__dot {
+  height: 5px;
+  width: 5px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__icon i {
+  font-size: 35px;
+}
+.find-icons__icon span {
+  margin-top: 18px;
+}
