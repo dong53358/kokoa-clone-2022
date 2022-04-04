@@ -31,8 +31,31 @@
 
 .more-suggestions__icons {
   display: flex;
-  margin-right: 30px;
 }
-.more-suggestions_icon-image {
-  font-size: 40px;
+
+.more-suggestions__icon {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-suggestions__icon-image {
+  width: 60px;
+  height: 60px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.more-suggestions__icon-image i {
+  font-size: 32px;
+  color: white;
+}
+.more-suggestions__icon-text {
+  font-size: 15px;
 }
